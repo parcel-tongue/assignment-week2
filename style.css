@@ -1,25 +1,51 @@
-﻿body {
-    font-family: sans-serif;
+﻿
     /********** Base styles **********/
-    *
-
-{
+* {
     box-sizing: border-box;
+    margin:0px;
+    padding:0px;
 }
+
 
 h1 {
     margin-bottom: 15px;
 }
 
-p {
+div {
     border: 1px solid black;
-    background-color: #A52A2A;
+    background-color: #45C3D3;
     width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
+    height: 90%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
     font-family: Helvetica;
+}
+
+p {
+    width: 90%;
+    height: auto;
+    margin:10px;
     color: white;
+}
+
+h3{
+    float: right;
+    position: relative;
+    border: solid black;
+    padding: 1px;
+    width:150px;
+}
+
+#beef {
+    background-color:gray;
+}
+#chicken {
+    background-color:aquamarine;
+}
+#sushi{
+    background-color:bisque;
 }
 
 /* Simple Responsive Framework. */
@@ -28,10 +54,9 @@ p {
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
-        border: 1px solid green;
     }
 
     .col-lg-1 {
@@ -84,10 +109,9 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-        border: 1px solid green;
     }
 
     .col-md-1 {
@@ -138,4 +162,4 @@ p {
         width: 100%;
     }
 }
-}
+
