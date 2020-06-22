@@ -2,8 +2,8 @@
     /********** Base styles **********/
 * {
     box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
 }
 
 
@@ -11,31 +11,34 @@ h1 {
     margin-bottom: 15px;
 }
 
-div {
+section {
     border: 1px solid black;
     background-color: #45C3D3;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top:10px;
     font-family: Helvetica;
+
 }
+
 
 p {
     width: 90%;
     height: auto;
     margin:10px;
     color: white;
+   
 }
 
-h3{
+h3 {
     float: right;
-    position: relative;
     border: solid black;
     padding: 1px;
-    width:150px;
+    width: 150px;
+    clear: both;
 }
 
 #beef {
